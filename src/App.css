@@ -1,3 +1,5 @@
+<!--aqui hacemos los estilos y los importamos--> 
+
 .App {
   text-align: center;
 }
@@ -36,3 +38,31 @@
     transform: rotate(360deg);
   }
 }
+.semaforoRojo.activo {
+background-color: red;
+}
+
+.semaforoAmarillo.activo {
+  background-color: yellow;
+  }
+
+  .semaforoVerde.activo {
+    background-color: green;
+    }
+
+    button{
+      background-color: gray;
+      color: white;
+      width: 100px;
+      height: 100px;
+
+    }
+
+    .contenedor{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100vw;
+      height: 100vh;
+      
+    }
